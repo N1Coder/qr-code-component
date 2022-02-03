@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+@use "sass:math";
+.font-400 {
+  font-weight: 400;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.bg {
+  background: #d6e2f0;
+}
+
+.card {
+  background: white;
+}
+
+.secondary-text {
+  background: #7b879d;
+}
+
+.main-text {
+  background: #1f3251;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card-component {
+  width: 100%;
+  max-width: 280px;
+  padding: 1em;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-component .card-img {
+  width: 100%;
+  margin-bottom: 0.8em;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-component .card-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-component h1 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.75em;
+  color: #1f3251;
+}
+
+.card-component p {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 0 1em 1em;
+  color: #7b879d;
+}
+/*# sourceMappingURL=main.css.map */
